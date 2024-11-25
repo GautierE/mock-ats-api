@@ -1,0 +1,14 @@
+{
+    "name": "mock-ats-api",
+    "version": "1.0.0",
+    "description": "Mock API for testing ATS integrations",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {}
+  }
+  
