@@ -11,3 +11,8 @@ function readData() {
 exports.getJobs = () => {
   return readData();
 };
+
+exports.getJob = (id) => {
+  const jobs = readData();
+  return jobs.find((job) => job.id === id);
+};
