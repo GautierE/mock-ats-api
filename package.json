@@ -4,11 +4,11 @@
     "description": "Mock API for testing ATS integrations",
     "main": "src/app.js",
     "scripts": {
-      "start": "node src/app.js"
+        "start": "node src/app.js"
     },
     "dependencies": {
-      "express": "^4.18.2"
-    },
-    "devDependencies": {}
-  }
-  
+        "dotenv": "^16.4.5",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2"
+    }
+}
